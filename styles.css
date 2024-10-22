@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.ACC_log{
+    background-image: url(./images/partnerbg-accenture.jpg);
+    width: 100%;
+    background-size: cover;
+    min-height: 40vh;
+  
+}
+    
+
+
+.container{
+    padding:55px;
+}
+.add_newitem_mobile{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+}
+@media only screen and (max-width: 600px){
+    .ACC_log{
+        min-height: 20vh
+        
+    }
+
+}
+@media(min-width:600px){
+    .add_newitem_mobile{
+        display:none;
+    }
+
+}
